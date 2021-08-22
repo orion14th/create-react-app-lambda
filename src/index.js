@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
-import TodoApp from './todo-app/App';
+//import TodoApp from './todo-app/App';
+import MemeApp from './meme-generator/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<TodoApp />, document.getElementById('root'));
