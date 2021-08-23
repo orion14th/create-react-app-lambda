@@ -13,7 +13,7 @@ import jokesData from "./JokeData"
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findindex
 
 function App() {
-    const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchLine={joke.punchLine} />)
+const jokeComponents=[1,2,3];
     
     return (
         <div>
