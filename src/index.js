@@ -4,7 +4,7 @@ import './index.css';
 //import App from './App';
 //import TodoApp from './todo-app/App';
 //import MemeApp from './meme-generator/App';
-import JoshTest from '.josh-test/App';
+import JoshTest from './josh-test/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<JoshTest />, document.getElementById('root'));
