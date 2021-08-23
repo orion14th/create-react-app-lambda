@@ -2,9 +2,9 @@ import React from "react"
 
 function JoshTest(){
   const JoshCSS={
-  
-  fontSize:"3em",
-    color:"#666"
+    fontStyle: "italic",
+        color: "#cdcdcd",
+        textDecoration: "line-through"
   }
   return(
   
