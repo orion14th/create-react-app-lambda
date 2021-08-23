@@ -3,7 +3,7 @@ import React from "react"
 function JoshTest(){
   const JoshCSS={
     fontStyle: "italic",
-        color: "#cdcdcd",
+        color: "#000000",
         textDecoration: "line-through"
   }
   return(
