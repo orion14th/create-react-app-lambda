@@ -7,9 +7,9 @@ function JoshTest(){
         textDecoration: "line-through"
   }
   return(
-  
+  <Header />
   <h1 style={JoshCSS}> Test </h1>
-    
+     <Footer /> 
   )
   
 }
