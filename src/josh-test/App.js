@@ -5,10 +5,10 @@ function JoshTest(){
     fontStyle: "italic",
         color: "#000000"
   }
-  return(
+  return(<div>
   <Header />
-  
-     <Footer /> 
+  <h1 style={JoshCSS}> Test </h1>
+     <Footer /> </div>
   )
   
 }
