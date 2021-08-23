@@ -7,7 +7,7 @@ function JoshTest(){
   }
   return(<div>
   <Header />
-  <h1 style={JoshCSS}> Test </h1>
+ 
      <Footer /> </div>
   )
   
