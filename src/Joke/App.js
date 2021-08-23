@@ -1,7 +1,7 @@
 import React from "react"
 
 import Joke from "./Joke"
-import jokesData from "./jokesData"
+import jokesData from "./JokeData"
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
