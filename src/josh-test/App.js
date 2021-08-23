@@ -8,7 +8,7 @@ function JoshTest(){
   }
   return(
   
-  <h1 className={JoshCSS}> Test </h1>
+  <h1 style={JoshCSS}> Test </h1>
     
   )
   
