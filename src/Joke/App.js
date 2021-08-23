@@ -1,6 +1,6 @@
 import React from "react"
 
-import Joke from "./Joke"
+import Joke from "./Joke2"
 import jokesData from "./JokeData"
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
