@@ -13,6 +13,7 @@ class App extends Component {
     componentDidMount() {
         this.setState({loading: true})
         fetch("https://swapi.co/api/people/1")
-            .then(response => console.log(data))
+        .then(response => response.json())
+            .then(data => console.log(data))
       
     }
