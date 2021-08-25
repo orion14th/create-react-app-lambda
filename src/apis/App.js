@@ -1,7 +1,9 @@
 import React,{Component} from "react"
 
 class App extends Component{
-
+constructor(){
+    
+    super()
     this.state={
     
         character:{}
@@ -9,6 +11,7 @@ class App extends Component{
     }
     
  
+}
 }
 
 ComponentDidMount(){
