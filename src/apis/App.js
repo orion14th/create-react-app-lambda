@@ -1,41 +1,50 @@
-import React, {Component} from "react"
+import React,{Component} from "react"
 
 class App extends Component{
+    
+    
     constructor(){
-        
-     super()
+        super()
         
         this.state={
         
-         firstname:""   
+        
+            firstname:""
         
         }
         
-     
-    this.handleChange=this.handleChange.bind(this)
-       } 
-
-handleChange(event){
+        
+        
+    }
     
-    this.setState({
+    handleChange(event){
+        
+       this.setState({
+       
+       firstname:event.target.value
+       
+       }) 
+        
+    }
     
-        firstname:event.target.value
-    
-    })
-}
-
-render(){
     
  
-    return(
+    render(){
+        
+        
+     return(
+     
+     <form>
+     
+         <input type="text" onChange={this.handleChange} />
+         <p>       {this.state.firstname}  </p>
+            </form>
+         
+     )   
+        
+    }
     
-  <form> <input name="firstname1" type="text" onChange={this.handleChange} placeholder="firstname..."  />  <p>{this.state.firstname}</p> </form>
-
-  )
     
 }
-    
-}
-
 
 export default App
