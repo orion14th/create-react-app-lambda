@@ -11,14 +11,9 @@ class App extends Component(){
         
         }
         
-        
-    }
-    
-    
+     
     this.handlerChange=this.handlerChange.bind(this)
-    
-    
-}
+       } 
 
 handlerChange(event){
     
@@ -40,6 +35,8 @@ render(){
  
     
     )
+    
+}
     
 }
 
