@@ -8,10 +8,7 @@ class App extends Component {
     constructor() {
         super()
         this.state = {
-            character: {
-            
-            name:"";
-            }
+            character: {}
         }
     }
     
@@ -20,7 +17,7 @@ class App extends Component {
             .then(response => response.json())
             .then(data => this.setState({
         
-        name:data.name
+       character:data
         
         }) 
                  
