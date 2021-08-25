@@ -12,10 +12,10 @@ class App extends Component(){
         }
         
      
-    this.handlerChange=this.handlerChange.bind(this)
+    this.handleChange=this.handleChange.bind(this)
        } 
 
-handlerChange(event){
+handleChange(event){
     
     this.setState({
     
@@ -29,12 +29,9 @@ render(){
  
     return(
     
-  <form> <input name="firstname" type="text" onChange={this.handlerChange} placeholder="firstname"  />  <p>{this.state.firstname}</p> </form>
+  <form> <input name="firstname1" type="text" onChange={this.handleChange} placeholder="firstname..."  />  <p>{this.state.firstname}</p> </form>
 
-
- 
-    
-    )
+  )
     
 }
     
