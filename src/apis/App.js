@@ -32,7 +32,7 @@ class App extends Component {
     render() {
         return (
             <div>
-            {this.state.name}
+            {this.state.character.name}
             </div>
         )
     }
