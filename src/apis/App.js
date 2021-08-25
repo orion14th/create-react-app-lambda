@@ -1,43 +1,39 @@
-import React,{Component} from "react"
+import React, {Component} from "react"
 
 class App extends Component{
-constructor(){
-    
-    super()
+    constructor(){
+        super()
     this.state={
     
-        character:{}
+    character:{}
     
     }
+   | 
     
- 
-}
 }
 
 ComponentDidMount(){
     
     fetch("https://swapi.dev/api/people/1")
     .then(response => response.json())
-     .then(data => {
-        this.setState({
+    .then(data => {
+    this.setState({
     
-    character:data
+               character:data
     
     })
-        
+ 
+    
     })
+    
 }
 
 render(){
     
- 
     return(
     
-    <div>   {this.state.character.name}        </div>
-    
+    <div> {this.state.character.name} </div>
     )
-    
 }
 
- 
 export default App
