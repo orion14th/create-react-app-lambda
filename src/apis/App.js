@@ -8,20 +8,31 @@ class App extends Component {
     constructor() {
         super()
         this.state = {
-            character: {}
+            character: {
+            
+            name:"";
+            }
         }
     }
     
     componentDidMount() {
         fetch("https://swapi.dev/api/people/1")
             .then(response => response.json())
-            .then(data => console.log(data))
+            .then(data => this.setState({
+        
+        name:data.name
+        
+        }) 
+                 
+                 
+                 
+                 )
     }
     
     render() {
         return (
             <div>
-                Code goes here
+            {this.state.name}
             </div>
         )
     }
