@@ -34,11 +34,10 @@ render(){
  
     return(
     
-    <div> <form> <input name="firstname" type="text" onChange={this.handlerChange} placeholder="firstname"  />  </form>
+  <form> <input name="firstname" type="text" onChange={this.handlerChange} placeholder="firstname"  />  <p>{this.state.firstname}</p> </form>
 
-<p>{this.state.firstname}</p>
 
-</div>
+ 
     
     )
     
